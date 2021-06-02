@@ -1,0 +1,36 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .custom-select-box,
+  .right-phone-box {
+    display: none;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .custom-select-box {
+    display: none;
+  }
+  .right-phone-box,
+  .our-link {
+    float: none;
+    text-align: center;
+  }
+  .login-box {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .right-phone-box,
+  .text-slide-box {
+    display: none;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+  .login-box {
+    text-align: center;
+  }
+}
